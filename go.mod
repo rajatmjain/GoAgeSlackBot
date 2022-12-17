@@ -2,7 +2,10 @@ module github.com/rajatmjain/GoAgeSlackBot
 
 go 1.19
 
-require github.com/shomali11/slacker v1.3.0
+require (
+	github.com/joho/godotenv v1.4.0
+	github.com/shomali11/slacker v1.3.0
+)
 
 require (
 	github.com/gorilla/websocket v1.4.2 // indirect
